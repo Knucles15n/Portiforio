@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    #com1 {
+      
+      transform: translate(77%);
+
+      
+    }
+
+    
+    #com2 {
+        transform: translate(77%);
+    }
+    p {
+        text-align: center;
+    }
+    #formulario > div#imglogin {
+        border-radius: 20px 20px 0px 0px;
+    }
+    #formulario{
+        left: 50%;
+        transform: translate(45%);
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 748px){
+        section#formulario {
+
+            width: 70%;
+            transform: translate(20%);
+
+        }
+
+        #com1{
+            transform: translate(135%);
+        }
+
+}
+
+@media screen and (min-width: 749px) and (max-width: 1300px) {
+
+    section#formulario {
+        width: 50%;
+        height: 450px;
+        transform: translate(45%);
+
+    }
+    h3{
+        left: 100vw;
+    }
+
+#com1 {
+    left: 70vw;
+    transform: translate(42vw);
+}
+
+#formulario > div#imglogin{
+    float: left;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+    p { 
+        left: 50vw;
+        transform: translate(40vw);
+        margin-left: 10px;
+        padding-left: 10px;
+        width: 200px;
+        border-width:  5px;
+        border-style: solid;
+        text-align: center;
+    }
+    form > input[type=submit] {
+        width: 50%;
+    }
+    form > a.botao {
+
+            width: 49%;
+        transform: translateX(1%);
+        
+    }
+
+
+}
+@media screen and (min-width: 1301px) {
+    h3{
+        left: 50vh;
+        transform: translate(-4vh);
+    }
+
+#com1 {
+    left: 70vw;
+    transform: translate(42vw);
+}
+
+    section#formulario {
+        width: 50%;
+        height: 450px;
+        transform: translate(50%);
+
+    }
+
+#formulario > div#imglogin{
+    float: left;
+    height: 100%;
+    width: 50%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.campo {
+    transform: translateY(50%);
+}
+
+    p { 
+        left: 50vw;
+        transform: translate(41vw);
+        margin-left: 10px;
+        padding-left: 10px;
+        width: 200px;
+        border-width:  5px;
+        border-style: solid;
+        text-align: center;
+    }
+    form > input[type=submit] {
+        width: 40%;
+        transform: translateY(50%);
+    }
+    form > a.botao {
+        width: 40%;
+        margin-top: 10px;
+        transform: translate(40%,);
+    }
+}

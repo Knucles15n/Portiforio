@@ -1,0 +1,134 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: cyan;
+    padding: 20px;
+}
+#mar {
+    margin-left: 10px;
+    transform: translate(270%,255%);
+    font-size: 2.5em;
+}
+#sub {
+    transform: translate(140%,580%);
+}
+main {
+    background-image: linear-gradient( to left,  black, cyan);
+    /*background-color:rgb(46, 43, 43);*/
+    color: white;
+    background-attachment: fixed;
+    height: 48.6vw;
+}
+#o {
+    
+
+    font-size: 2em;
+}
+#login {
+
+    width: 700px;
+    height: 452px;
+    background-color: rgba(0, 122, 122, 0);
+
+    transform: translate(150%, 15%);
+} 
+h2 {
+ 
+    transform: translate(5%, 1000%);
+    display: inline-block;
+}
+
+
+.campo {
+    transform: translate(-10%);
+}
+#logi {
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 450px;
+    height: 30px;
+    margin-left: 10px;
+}
+#isenha {
+    width: 450px;
+    height: 30px;
+
+    margin-left: 10px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#caxsen {
+    text-align: center;
+    width: 180px;
+    padding: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 7px;
+}
+main > #login > #caxsen > a:hover {
+    background-color: cyan;
+}
+#es-senha{
+    margin-top: 100px;
+    color: white;
+    text-decoration: none;
+
+    border: 50px;
+}
+#entrar {
+    width: 125px;
+    height: 40px;
+    transform: translate(325%, -100%);
+    border-radius: 7px;
+}
+.cada {
+    margin-left: 10px;
+}
+/*
+#prin {
+    border-radius: 5PX;
+    transform: translateX(120%);
+
+    width: 700px;
+    height: 452px;
+    background-color: aqua;
+
+    margin-top: 100px;
+    display: flex;
+
+
+align-items: center;
+}
+*/
+footer {
+    background-color: rgb(31, 30, 30);
+    height: 70px;
+}
+#rod {
+    padding: 20px;
+    padding-top: 40px;
+}
+footer > a {
+    padding: 25px;
+    margin-left: 190px;
+    display: inline-block;
+
+    color: white;
+    text-decoration: none;
+
+
+}
+
+footer > a:hover {
+    background-color: white;
+    color: black;
+}

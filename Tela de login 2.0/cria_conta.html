@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        border: none;
+
+    }
+    body {
+        background-color: rgb(43, 42, 42);
+        background-size: cover;
+        padding-top: 5vh;
+        background-position: -150px;
+    }
+    input, label {
+        display: block;
+        width: 100%;
+    }
+    input:focus, label:focus {
+        outline: none;
+    }
+    #main {
+        width: 700px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    #main, h1 {
+        
+        margin-bottom: 25px;
+        font-size: 1.4em;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space;
+    }
+
+    #full-box {
+        flex: 100%;
+        position: relative;
+    }
+
+    .box {
+        flex: 45%;
+        position: relative;
+    }
+
+    #spacing {
+        margin-right: 2.5%;
+    }
+
+    label {
+        font-weight: bold;
+
+    }
+
+    input {
+        border-bottom: 2px solid;
+        padding: 10px;
+
+    }
+</style>
+<body>
+    <div id="main">
+        <h1>Cadastre-se</h1>
+        <form id="register">
+
+
+            <div id="full-box">
+    <label for="name">Nome</label>
+    <input type="text" name="name" id="name" placeholder="Escreva seu nome"></div>
+
+    <div class="box", id="spacing">
+    <label for="lastname">Sobrenome</label>
+    <input type="lastname" name="lastname" id="lastname" placeholder="Escreva seu sobrenome"></div>
+
+    <div class="box" >
+    <label for="ilogi">E-mail</label>
+    <input type="email" name="logi" id="logi" placeholder="Digite e-mail que você que cadastra"></div>
+
+    <div class="box">
+    <label for="isenha">Senha</label>
+    <input type="password" name="senha" id="isenha" placeholder="Digite senha"></div><br>
+
+    <div class="box">
+    <input type="checkbox" name="agreement" id="agreement">
+    <label for="agreement" id="agreement">Eu li e aceito os <a href="teste.html" target="_blank" rel="external"> termos de uso</a></label></div>
+</form>
+</div>
+</body>
+</html>

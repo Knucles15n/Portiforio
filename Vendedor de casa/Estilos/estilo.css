@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body{
+
+    background-image: url('FFundo\ de\ site.jpg');
+}
+#container {
+    display: inline-block;
+    position: relative;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#image {
+    filter: brightness(60%);
+    width: 100%;
+    height: 550px;
+}
+
+
+ #texto {
+
+    position: absolute;
+    font-size: 32px;
+    left: 50%;
+    top: 10%;
+    border-width:  5px;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+section#formulario {
+    background-color: green;
+    width: 250px;
+    height: 550px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    left: 50%;
+}
+h3 {
+    text-align: center;
+}
+
+#com1 {
+    
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+#com2 {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+p {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#com3 {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#formulario > div#imglogin{
+    
+    background: url(../Sem\ título.png);
+    background-size: cover;
+    height: 200px;
+}
+.campo {
+    margin: 10px;
+}
+
+#ilogi{
+    height: 20px;
+}
+#isenha {
+    height: 20px;
+}
+form > input[type=submit] {
+    display: inline-block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(38, 120, 134);
+    color: white;
+    border: none;
+    border-radius: 5px ;
+}
+form > a.botao {
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    width: 99%;
+    height: 30px;
+    background-color: rgb(38, 120, 134);
+    padding-top: 15px;
+    margin-top: 5px;
+    border: 1px solid rgb(10, 77, 88);
+    text-decoration: none;
+    border-radius: 10px;
+    color: aqua;
+}
