@@ -20,10 +20,7 @@
         padding-top: 5vh;
         background-position: -150px;
     }
-    input, label {
-        display: block;
-        width: 100%;
-    }
+
     input:focus, label:focus {
         outline: none;
     }
@@ -35,6 +32,10 @@
         background-color: white;
         padding: 25px;
         border-radius: 10px;
+    }
+    .name {
+        display: block;
+        width: 100%;
     }
 
     #main, h1 {
@@ -73,6 +74,16 @@
         padding: 10px;
 
     }
+    #entrar {
+        margin-top: 10px;
+        border-radius: 30px;
+        border: 0px;
+        width: 350px;
+        transform: translate(50%, 50%);
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
 </style>
 <body>
     <div id="main">
@@ -81,24 +92,28 @@
 
 
             <div id="full-box">
-    <label for="name">Nome</label>
-    <input type="text" name="name" id="name" placeholder="Escreva seu nome"></div>
+    <label class="Esclusivo" , for="name">Nome</label>
+    <input  type="text" name="name"  class="name" placeholder="Escreva seu nome"></div>
 
     <div class="box", id="spacing">
     <label for="lastname">Sobrenome</label>
-    <input type="lastname" name="lastname" id="lastname" placeholder="Escreva seu sobrenome"></div>
+    <input type="lastname" name="lastname" class="name" placeholder="Escreva seu sobrenome"></div>
 
     <div class="box" >
     <label for="ilogi">E-mail</label>
-    <input type="email" name="logi" id="logi" placeholder="Digite e-mail que você que cadastra"></div>
+    <input type="email" name="logi" class="name" placeholder="Digite e-mail que você que cadastra"><br></div>
 
     <div class="box">
     <label for="isenha">Senha</label>
-    <input type="password" name="senha" id="isenha" placeholder="Digite senha"></div><br>
+    <input type="password" name="senha" class="name" placeholder="Digite uma senha forte"><br>
 
-    <div class="box">
+    
     <input type="checkbox" name="agreement" id="agreement">
-    <label for="agreement" id="agreement">Eu li e aceito os <a href="teste.html" target="_blank" rel="external"> termos de uso</a></label></div>
+    <label for="agreement" id="agreement">Eu li e aceito os <a href="teste.html" target="_blank" rel="external"> termos de uso</a></label><br>
+    
+    <input type="submit", id="entrar" value="Cadastrar-se"></div>
+
+    
 </form>
 </div>
 </body>

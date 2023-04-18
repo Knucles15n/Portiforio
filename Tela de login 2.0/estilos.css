@@ -65,18 +65,7 @@ h2 {
     padding-left: 10px;
     border-radius: 10px;
 }
-#caxsen {
-    text-align: center;
-    width: 180px;
-    padding: 5px;
-    border-width: 3px;
-    border-style: solid;
-    border-color: white;
-    border-radius: 7px;
-}
-main > #login > #caxsen > a:hover {
-    background-color: cyan;
-}
+
 #es-senha{
     margin-top: 100px;
     color: white;
@@ -84,11 +73,20 @@ main > #login > #caxsen > a:hover {
 
     border: 50px;
 }
+#es-senha:hover {
+    background-color: black;
+    padding: 15px;
+    border-radius: 30px;
+}
 #entrar {
     width: 125px;
     height: 40px;
     transform: translate(325%, -100%);
-    border-radius: 7px;
+    border-radius: 30px;
+}
+#entrar:hover {
+    background-color: black;
+    color: white;
 }
 .cada {
     margin-left: 10px;
