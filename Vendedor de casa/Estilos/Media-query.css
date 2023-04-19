@@ -4,8 +4,11 @@
     #com1 {
       
       transform: translate(13.5vh);
-
       
+      
+    }
+    #formulario{
+        transform: translate(-5vh);
     }
 
     
