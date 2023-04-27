@@ -1,8 +1,86 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 200px) and (max-width: 600px) {
-    #login{
-        width: 100vw;
-        height: 10000px;
+@media screen and (min-width: 200px) and (max-width: 900px) {
+    * {
+        width: 100%;
     }
+    main{
+        width: 100%;
+        height: 100vh;
+
+
+    }
+
+    #mar {
+        width: 100px;
+        transform: translate(170%);
+    }
+    #sub
+    {
+        width: 300px;
+        transform: translate(20%,115%);
+    }
+    #login{
+        width: 400px;
+        transform: translateX(-0%);
+    }
+    #o{
+        margin-top: 50px;
+    }
+    label {
+        transform: translateX(-440%);
+        color: black;
+    }
+    #logi {
+        margin-top: 5px;
+        width: 393px;
+    }
+    #isenha {
+        width: 393px;
+    }
+
+    #entrar {
+        transform: translateX(200%);
+    }
+
+footer {
+    height: 195px;
+}
+footer > a {
+    width: 455px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    display: inline-block;
+
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+
+}
+}
+@media screen and (min-width: 901px) and (max-width: 1805px) {
+
+    main{
+        width: 100%;
+        height: 100vh;
+    }
+
+    #login{
+        width: 400px;
+        transform: translateX(40vw);
+    }
+    #mar{
+        transform: translate(20%,255%);
+    }
+    #sub {
+        transform: translate(-80%,580%);
+     }
+    footer {
+        height: 85px;
+     }
+     footer > a {
+        margin-left: 60px;
+     }
 }
