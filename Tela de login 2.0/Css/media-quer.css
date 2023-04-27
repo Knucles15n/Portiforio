@@ -33,10 +33,10 @@
     }
     #logi {
         margin-top: 5px;
-        width: 353px;
+        width: 323px;
     }
     #isenha {
-        width: 353px;
+        width: 323px;
     }
 
     #entrar {
@@ -47,7 +47,7 @@ footer {
     height: 195px;
 }
 footer > a {
-    width: 200px;
+    width: 50%;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 0px;
